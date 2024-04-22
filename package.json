@@ -27,7 +27,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "start": "serve -s build"
   },
   "eslintConfig": {
     "extends": [
